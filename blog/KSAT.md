@@ -1,10 +1,8 @@
-# What will be the Korean KSAT proficiency of the LLM model?
+# Ko-SAT benchmarks for LLM models
 
 ### Introduction
 
-The HAE-RAE project is developing a dataset for the Korean language model to enhance Polyglot-Ko inference and instruction-following. We are conducting research beyond translation of existing English datasets to create a specialized educational and benchmark dataset representing Korean culture and knowledge.
-
-The Ko-SAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT subject, similar to the English SAT and LSAT datasets. The Korean SAT subject consists of four main areas: reading, literature, rhetoric and composition, and language and media, evaluating literary interpretation and utilization, aesthetic and creative abilities in literary works, communication and writing skills, and Korean norms and media utilization skills.
+The Ko-SAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT subject, similar to the English SAT and LSAT datasets. 
 
 ### Dataset
 
