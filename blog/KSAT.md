@@ -1,11 +1,11 @@
 # Ko-KSAT benchmarks for LLM models
 
-### Introduction
+## Ko-KSAT
 
 The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능), similar to the English SAT and LSAT datasets.  
 All data from the Korean SAT are provided in pdf format, and are made in multi-stage form. So we created a dataset that was converted to Text form by copying and pasting directly.   
 
-### Dataset
+### Size
 
 We collected data from the KSAT (수능) administered from 2007 to 2022.   
   
@@ -16,7 +16,7 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
 | 2009 revised   | 2017 - 2020 |44        |
 | 2015 revised   | 2021 - 2023 |55        |
 
-### Details
+### Preprocessing
 
 For KSAT, expressions referring to a part of the text are used, and problems interpreting tables and graphs appear.  
 The dataset has undergone several processing steps to ensure that the language model can understand them.
