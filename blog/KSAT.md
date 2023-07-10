@@ -18,7 +18,7 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
 
 ### Details
 
-For Korean language problems, expressions referring to a part of the text are frequently used, and problems interpreting tables and graphs frequently appear.  
+For KSAT, expressions referring to a part of the text are used, and problems interpreting tables and graphs appear.  
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
 1. Add tokens $<$ part start $>$ $<$ part end $>$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
@@ -38,62 +38,4 @@ Add $<$ etc start $>$ $<$ etc end $>$ to indicate figures, tables, and graphs.
 \begin{tabular}{|l|l|l|l|}
 \hline
 항목                                        & 1995년 & 2000년 & 2005년 \\ \hline
-ㄱ. 여성 취업자 중 전문 관리직 종사자 구성비율 {[}단위: 백분율{]} & 11.4  & 14.0  & 17.5  \\ \hline
-ㄴ. 가입 여성 1인당 출산율 {[}단위: 명{]}              & 1.65  & 1.47  & 1.08  \\ \hline
-ㄷ. 전체 인구 중 30대 미혼 인구 비율 {[}단위: 명{]}       & 1.71  & 2.40  & 3.75  \\ \hline
-ㄹ. 평균 수명 {[}단위: 세{]}                      & 72.3  & 74.6  & 76.8  \\ \hline
-\end{tabular}
-\end{table}
-<etc end>
-```
-
-### Benchmark Method
-
-For Bard, GPT-turbo 3.5, and HyperClova LK-D2, the prompts used are as follows.
-
-```
-다음 질문을 읽고 아래 선택지 중 가장 적절한 답의 번호를 고르시오.
-### 문제: {문제 내용}
-### 참고: {문학 작품 등 보기 내용}
-### 선택지: {1~5번의 선택지 내용}
-### 정답:
-
-```
-
-The evaluation method for Polyglot-Ko, KoAlpaca, Kullm, XGLM, KoGPT, and mT5 is likelihood.   
-After evaluating the probability of question-answer pairs for each option, the option with the highest log likelihood is presented as the answer.   
-The evaluation may differ from the generator method.  
-Problems with token length exceeding 2048 are excluded.
-
-### Result
-
-Generator Evaluation  
-| Model | Accuracy |
-| --- | --- |
-| GPT-turbo 3.5 | 0.31 |
-| Bard | 0.36 |
-| HyperClova LK-D2 | 0.18 |
-
-
-Log Likelihood Evaluation  
-| Model | Accuracy |
-| --- | --- |
-| polyglot-ko-12.8b | 0.18 |
-| KoAlpaca-Polyglot-12.8B | 0.14 |
-| kullm-polyglot-12.8b-v2 | 0.18 |
-| kogpt6B-ryan1.5b | 0.21 |
-| xglm-7.5B | 0.21 |
-| mt5-xl | 0.20 |
-
-### Contributors 
-나건주  
-박수빈  
-박은우  
-손규진  
-염제원  
-유수빈  
-조하늘  
-진혜원  
-
-### Copyright
-The copyright of this material belongs to the Korea Institute for Curriculum and Evaluation and is prohibited from using it for research purposes.
+ㄱ. 여성 취업자 원) and is prohibited from using it for research purposes.
