@@ -23,9 +23,9 @@ For Korean language problems, expressions referring to a part of the text are fr
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
 1. Add tokens $<$ part start $>$ $<$ part end $>$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
-Add tokens $<$ word start $>$ $<$word end$>$ for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
-Add $<$part start$>$ $<$part end$>$ for parts that are larger than words but smaller than paragraphs.  
-Add $<$etc start$>$ $<$etc end$>$ to indicate figures, tables, and graphs.  
+Add tokens $<$ word start $>$ $<$ word end $>$ for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
+Add $<$ part start $>$ $<$ part end $>$ for parts that are larger than words but smaller than paragraphs.  
+Add $<$ etc start $>$ $<$ etc end $>$ to indicate figures, tables, and graphs.  
 2. Middle Korean cannot be encoded, so it is excluded.  
 3. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts. For example, the expression in the example below is changed as follows:  
 
