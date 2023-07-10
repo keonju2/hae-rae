@@ -11,10 +11,10 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
   
 | Currirulum     | Year        |Size        |
 | :------------- | :---------- |:----------|
-| 7th curriculum | 2007 - 2011 |45        |
-| 2007 revised   | 2012 - 2016 |Year        |
-| 2009 revised   | 2017 - 2020 |Year        |
-| 2015 revised   | 2021 - 2023 |Year        |
+| 7th curriculum | 2007 - 2011 |50        |
+| 2007 revised   | 2012 - 2016 |85        |
+| 2009 revised   | 2017 - 2020 |44        |
+| 2015 revised   | 2021 - 2023 |55        |
 
 ### Details
 
