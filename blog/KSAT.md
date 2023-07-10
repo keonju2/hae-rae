@@ -9,12 +9,12 @@ All data from the Korean SAT are provided in pdf format, and are made in multi-s
 
 We collected data from the KSAT (수능) administered from 2007 to 2022.   
   
-| Currirulum     | Year        |
-| :------------- | :---------- |
-| 7th curriculum | 2007 - 2011 |
-| 2007 revised   | 2012 - 2016 |
-| 2009 revised   | 2017 - 2020 |
-| 2015 revised   | 2021 - 2023 |
+| Currirulum     | Year        |Size        |
+| :------------- | :---------- |:----------|
+| 7th curriculum | 2007 - 2011 |45        |
+| 2007 revised   | 2012 - 2016 |Year        |
+| 2009 revised   | 2017 - 2020 |Year        |
+| 2015 revised   | 2021 - 2023 |Year        |
 
 ### Details
 
@@ -67,11 +67,14 @@ Problems with token length exceeding 2048 are excluded.
 
 
 ### Result
+Generator Evaluation
 | Model | Accuracy |
 | --- | --- |
 | GPT-turbo 3.5 | 0.31 |
 | Bard | 0.36 |
 | HyperClova LK-D2 | 0.18 |
+
+Log Likelihood Evaluation
 | Model | Accuracy |
 | --- | --- |
 | polyglot-ko-12.8b | 0.18 |
@@ -92,4 +95,4 @@ Problems with token length exceeding 2048 are excluded.
 조하늘  
 진혜원  
 ### Copyright
-The copyright of this material belongs to the Korea Institute for Curriculum and Evaluation and is prohibited from using it for research purposes.
+The copyright of this material belongs to the Korea Institute for Curriculum and Evaluation(한국교육과정평가원) and is prohibited from using it for research purposes.
