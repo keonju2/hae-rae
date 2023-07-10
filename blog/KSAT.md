@@ -27,7 +27,8 @@ Add tokens $<$ word start $>$ $<$ word end $>$ for underlined words or character
 Add $<$ part start $>$ $<$ part end $>$ for parts that are larger than words but smaller than paragraphs.  
 Add $<$ etc start $>$ $<$ etc end $>$ to indicate figures, tables, and graphs.  
 2. Middle Korean cannot be encoded, so it is excluded.  
-3. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts. For example, the expression in the example below is changed as follows:  
+3. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts.
+   For example, the expression in the example below is changed as follows:  
 
 ![image](https://github.com/keonju2/fingen/assets/54880474/d727dbab-884e-4234-bc98-9e0dd5ced4e0)
 
