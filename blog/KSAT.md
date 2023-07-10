@@ -43,15 +43,6 @@ The dataset has undergone several processing steps to ensure that the language m
 \begin{tabular}{|l|l|l|l|}
 \hline
 항목                                        & 1995년 & 2000년 & 2005년 \\ \hline
-ㄱ. 여성 취업자 원) and is prohibited from using it for research purposes.
-```
-```
-다음은 사회 변화에 대비한 복지 정책 에 관한 글을 쓰기 위해 수집한 자료를 정리한 내용이다 자료를 결합하여 해석하고 주제를 생성하는 과정으로 가장 적절한 것은?
-<etc start>
-\begin{table}[]
-\begin{tabular}{|l|l|l|l|}
-\hline
-항목                                        & 1995년 & 2000년 & 2005년 \\ \hline
 ㄱ. 여성 취업자 중 전문 관리직 종사자 구성비율 {[}단위: 백분율{]} & 11.4  & 14.0  & 17.5  \\ \hline
 ㄴ. 가입 여성 1인당 출산율 {[}단위: 명{]}              & 1.65  & 1.47  & 1.08  \\ \hline
 ㄷ. 전체 인구 중 30대 미혼 인구 비율 {[}단위: 명{]}       & 1.71  & 2.40  & 3.75  \\ \hline
