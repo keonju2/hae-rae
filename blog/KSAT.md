@@ -86,13 +86,14 @@ Log Likelihood Evaluation
 
 
 ### Contributors 
-나건주  
-박수빈  
-박은우  
-손규진  
-염제원  
-유수빈  
-조하늘  
-진혜원  
+Na Keonju
+Park Subin
+Park Eunwoo
+Son Gyu Jin
+Yeom Jewon  
+Yoo Subin  
+Jo Haneul  
+Jin Hyewon  
+
 ### Copyright
 The copyright of this material belongs to the Korea Institute for Curriculum and Evaluation(한국교육과정평가원) and is prohibited from using it for research purposes.
