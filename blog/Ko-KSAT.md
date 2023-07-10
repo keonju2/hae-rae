@@ -84,6 +84,11 @@ Log Likelihood Evaluation
 | xglm-7.5B | 0.21 |
 | mt5-xl | 0.20 |
 
+### Polyglot vs KoAlpaca  vs Kullm  
+
+Kullm, KoAlpaca, and Polyglot answered the same question at 117(50%).   
+Only Polyglot, Koalpaca, Kullm answered differently, 28, 55, 11 of them.  
+From this point of view, KoAlpaca appears to be less accurate due to overfitting of learning data compared to Kullm and Polyglot.  
 
 ### Contributors 
 Na Keonju
