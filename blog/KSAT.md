@@ -22,7 +22,7 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
 For Korean language problems, expressions referring to a part of the text are frequently used, and problems interpreting tables and graphs frequently appear.  
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
-1. Add tokens $<part start>$ $<part end>$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
+1. Add tokens $<$part start>$ $<part end>$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
 Add tokens $<word start>$ $<word end>$ for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
 Add $<part start>$ $<part end>$ for parts that are larger than words but smaller than paragraphs.  
 Add $<etc start>$ $<etc end>$ to indicate figures, tables, and graphs.  
