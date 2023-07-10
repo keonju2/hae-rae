@@ -25,8 +25,8 @@ The dataset has undergone several processing steps to ensure that the language m
 
 | Token                    | Meaning               | Example       |
 | :----------------------- | :-------------------- | :------------ |
-| < part start>, <part end>| paragraphs            | (a), (b), (c) |
-| < par start>, <par end> | word,sentence         | (ㄱ), (ㄴ), (ㄷ) |
+| <part start>, <part end> | paragraphs            | (a), (b), (c) |
+| <par start>, <par end>   | word,sentence         | (ㄱ), (ㄴ), (ㄷ) |
 | < etc start>, <etc end> | image, tables, graphs | Latex, Text   |
 
 
