@@ -2,7 +2,9 @@
 
 ### Introduction
 
-The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능), similar to the English SAT and LSAT datasets. 
+The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능), similar to the English SAT and LSAT datasets.  
+All data from the Korean SAT are provided in pdf format, and are made in multi-stage form.  
+
 
 ### Dataset
 
@@ -20,10 +22,10 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
 For Korean language problems, expressions referring to a part of the text are frequently used, and problems interpreting tables and graphs frequently appear.  
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
-1. Add tokens <part start><part end> to indicate paragraphs in the problem, such as (a), (b), and (c).  
-Add tokens <word start><word end> for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
-Add <part start><part end> for parts that are larger than words but smaller than paragraphs.  
-Add <etc start><etc end> to indicate figures, tables, and graphs.  
+1. Add tokens $\lt$part start$\gt$ $\lt$part end$\gt$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
+Add tokens $\lt$word start$\gt$ $\lt$word end$\gt$ for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
+Add $\lt$part start$\gt$ $\lt$part end$\gt$ for parts that are larger than words but smaller than paragraphs.  
+Add $\lt$etc start$\gt$ $\lt$etc end$\gt$ to indicate figures, tables, and graphs.  
 2. Middle Korean cannot be encoded, so it is excluded.  
 3. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts. For example, the expression in the example below is changed as follows:  
 
