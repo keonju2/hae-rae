@@ -2,7 +2,7 @@
 
 ### Introduction
 
-The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능) subject, similar to the English SAT and LSAT datasets. 
+The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능), similar to the English SAT and LSAT datasets. 
 
 ### Dataset
 
