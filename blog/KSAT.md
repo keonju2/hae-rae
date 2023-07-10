@@ -8,17 +8,12 @@ The Ko-KSAT dataset team aims to evaluate the language model's Korean language p
 
 We collected data from the KSAT (수능) administered from 2007 to 2022.   
   
-\begin{table}
-\centering
-\begin{tabular}{ll}
-Currirulum     & Year         \\
-7th~curriculum & 2007 - 2011  \\
-2007 revised   & 2012 - 2016  \\
-2009 revised   & 2017 - 2020  \\
-2015 revised   & 2021 - 2023 
-\end{tabular}
-\end{table}
-  
+| Currirulum     | Year        |
+| :------------- | :---------- |
+| 7th curriculum | 2007 - 2011 |
+| 2007 revised   | 2012 - 2016 |
+| 2009 revised   | 2017 - 2020 |
+| 2015 revised   | 2021 - 2023 |
 
 ### Details
 
