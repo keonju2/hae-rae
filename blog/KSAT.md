@@ -3,8 +3,7 @@
 ### Introduction
 
 The Ko-KSAT dataset team aims to evaluate the language model's Korean language proficiency by creating a dataset of the Korean SAT(대학수학능력평가, 수능), similar to the English SAT and LSAT datasets.  
-All data from the Korean SAT are provided in pdf format, and are made in multi-stage form.  
-
+All data from the Korean SAT are provided in pdf format, and are made in multi-stage form. So we created a dataset that was converted to Text form by copying and pasting directly.   
 
 ### Dataset
 
@@ -68,12 +67,15 @@ Problems with token length exceeding 2048 are excluded.
 
 ### Result
 
+Generator Evaluation  
 | Model | Accuracy |
 | --- | --- |
 | GPT-turbo 3.5 | 0.31 |
 | Bard | 0.36 |
 | HyperClova LK-D2 | 0.18 |
 
+
+Log Likelihood Evaluation  
 | Model | Accuracy |
 | --- | --- |
 | polyglot-ko-12.8b | 0.18 |
