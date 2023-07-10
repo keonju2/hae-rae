@@ -22,11 +22,11 @@ For KSAT, expressions referring to a part of the text are used, and problems int
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
 1. Tokens have been added to areas that refer to sentences, paragraphs, images, and tables referred to in the problem.  
-|Token                              |Meaning                |Example        |  
-| :-------------                    | :----------           | :----------   |  
-|$<$ part start $>$ $<$ part end $>$|paragraphs             |(a), (b), (c)  |  
-|$<$ part start $>$ $<$ part end $>$|word,sentence          |(ㄱ), (ㄴ), (ㄷ)|  
-|$<$ part start $>$ $<$ part end $>$|figures, tables, graphs|Latex, Text    |  
+| Token                    | Meaning               | Example       |
+| :----------------------- | :-------------------- | :------------ |
+| <part start>, <part end> | paragraphs            | (a), (b), (c) |
+| <par start>, <par end>   | word,sentence         | (ㄱ), (ㄴ), (ㄷ) |
+| <etc start>, <etc  end>  | image, tables, graphs | Latex, Text   |
 6. Middle Korean(중세 국어) cannot be encoded, so it is excluded.  
 7. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts.
    For example, the expression in the example below is changed as follows:  
