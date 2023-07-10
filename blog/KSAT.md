@@ -60,7 +60,7 @@ For Bard, GPT-turbo 3.5, and HyperClova LK-D2, the prompts used are as follows.
 ### 선택지: {1~5번의 선택지 내용}
 ### 정답:
 ```
-The evaluation method for Polyglot-Ko, KoAlpaca, Kullm, XGLM, KoGPT, and mT5 is likelihood.   
+The evaluation method for Polyglot-Ko, KoAlpaca, Kullm, XGLM, KoGPT, and mT5 is log likelihood.   
 After evaluating the probability of question-answer pairs for each option, the option with the highest log likelihood is presented as the answer.   
 The evaluation may differ from the generator method.  
 Problems with token length exceeding 2048 are excluded.  
