@@ -7,7 +7,7 @@ All data from the Korean SAT are provided in pdf format, and are made in multi-s
 
 ### Size
 
-We collected data from the KSAT (수능) administered from 2007 to 2022.   
+We collected data from the KSAT (수능) from 2007 to 2022.   
   
 | Currirulum     | Year        |Size        |
 | :------------- | :---------- |:----------|
