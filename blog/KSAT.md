@@ -21,12 +21,14 @@ We collected data from the KSAT (수능) administered from 2007 to 2022.
 For KSAT, expressions referring to a part of the text are used, and problems interpreting tables and graphs appear.  
 The dataset has undergone several processing steps to ensure that the language model can understand them.
 
-1. Add tokens $<$ part start $>$ $<$ part end $>$ to indicate paragraphs in the problem, such as (a), (b), and (c).  
-Add tokens $<$ word start $>$ $<$ word end $>$ for underlined words or characters (ㄱ), (ㄴ), and (ㄷ).  
-Add $<$ part start $>$ $<$ part end $>$ for parts that are larger than words but smaller than paragraphs.  
-Add $<$ etc start $>$ $<$ etc end $>$ to indicate figures, tables, and graphs.  
-2. Middle Korean(중세국어) cannot be encoded, so it is excluded.  
-3. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts.
+1. Tokens have been added to areas that refer to sentences, paragraphs, images, and tables referred to in the problem.
+|Token                              |Meaning                |Example        |
+| :-------------                    | :----------           | :----------   |
+|$<$ part start $>$ $<$ part end $>$|paragraphs             |(a), (b), (c)  |
+|$<$ part start $>$ $<$ part end $>$|word,sentence          |(ㄱ), (ㄴ), (ㄷ)|
+|$<$ part start $>$ $<$ part end $>$|figures, tables, graphs|Latex, Text    |
+6. Middle Korean(중세 국어) cannot be encoded, so it is excluded.  
+7. Problems related to tables, graphs, and figures are changed to LaTeX syntax or texts containing only objective facts.
    For example, the expression in the example below is changed as follows:  
 
 ![image](https://github.com/keonju2/fingen/assets/54880474/d727dbab-884e-4234-bc98-9e0dd5ced4e0)
