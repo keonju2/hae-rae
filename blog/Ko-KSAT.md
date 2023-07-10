@@ -91,12 +91,12 @@ Only Polyglot, Koalpaca, Kullm answered differently, 28, 55, 11 of them.
 From this point of view, KoAlpaca appears to be less accurate due to overfitting of learning data compared to Kullm and Polyglot.  
 
 ### Contributors 
-Na Keonju
-Park Subin
-Park Eunwoo
-Son Gyu Jin
-Yeom Jewon  
-Yoo Subin  
+Na Keonju  
+Park Subin  
+Park Eunwoo  
+Son Gyu Jin  
+Yeom Jewon   
+Yoo Subin   
 Jo Haneul  
 Jin Hyewon  
 
