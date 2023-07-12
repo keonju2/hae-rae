@@ -94,7 +94,7 @@ From this point of view, KoAlpaca appears to be less accurate due to overfitting
 Na Keonju  
 Park Subin  
 Park Eunwoo  
-Son Gyu Jin  
+Son Gyujin  
 Yeom Jewon   
 Yoo Subin   
 Jo Haneul  
